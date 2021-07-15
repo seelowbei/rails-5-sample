@@ -46,10 +46,10 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
-gem 'service_mesh', git: 'https://github.com/SiliconJungles/service-mesh.git', branch: 'master'
-
-# gem 'service_mesh', git: 'https://github.com/SiliconJungles/service-mesh.git', tag: 'latest'
-
-# gem 'service_mesh', path: '/Users/celine/workspace/service_mesh'
-
 gem 'devise'
+gem 'flipper'
+gem 'flipper-active_record'
+gem 'flipper-redis'
+gem 'flipper-ui'
+gem 'redis'
+gem 'service_mesh', git: 'https://github.com/SiliconJungles/service-mesh.git', tag: 'latest'
