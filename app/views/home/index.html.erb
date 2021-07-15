@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Homes</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Key</th>
+      <th colspan="3">Value</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @attributes.each do |key, value| %>
+      <tr>
+        <td><%= key %></td>
+        <td><%= value %></td>
+
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
